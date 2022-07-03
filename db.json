@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Cool Fedora",
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.",
+      "price": 3599,
+      "picture": "/images/product-image-hat.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Beige Blouse",
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.",
+      "price": 6600,
+      "picture": "/images/product-blouse.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Black Jacket",
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.",
+      "price": 12500,
+      "picture": "/images/product-black-jacket.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Brown Jacket",
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.",
+      "price": 2800,
+      "picture": "/images/product-brown-jacket.webp"
+    },
+    {
+      "id": 5,
+      "name": "Gray Blouse",
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.",
+      "price": 1500,
+      "picture": "/images/product-gray-blouse.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Male Bag",
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.",
+      "price": 1600,
+      "picture": "/images/product-male-bag.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Hugo Jeans",
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.",
+      "price": 36000,
+      "picture": "/images/product-hugo-jeans.png.webp"
+    },
+    {
+      "id": 8,
+      "name": "Male T-Shirt",
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.",
+      "price": 49000,
+      "picture": "/images/product-male-tshirt.jpg.webp"
+    }
+  ]
+}

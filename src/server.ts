@@ -5,7 +5,7 @@ import nunjucks from 'nunjucks';
 const db = require('../db.json');
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const Stripe = require('stripe');
-
+const domainRoot = process.env.DOMAIN_ROOT ?? 'http://localhost:3000';
 const app = express();
 const stripe = Stripe(
   'sk_test_51LHShpGP9mrjBLL1eEwI10bh9nxRh4ySUJO2TLJ1fsLoJfZJCff3xf3mHA7expvCqNwubDH1oQfkRxSAqhzaLOsb00k415ICdi',
@@ -46,7 +46,7 @@ app.post('/buy/items/', async (req, res) => {
           product_data: {
             name: item.name,
             description: item.description,
-            images: [`http://localhost:3000/${item.picture}`],
+            images: [`${domainRoot}/${item.picture}`],
           },
           unit_amount: item.price,
         },
@@ -54,8 +54,8 @@ app.post('/buy/items/', async (req, res) => {
       },
     ],
     mode: 'payment',
-    success_url: `http://localhost:3000/items/${item.id}?orderQuantity=${orderQuantity}`,
-    cancel_url: `http://localhost:3000/items/${item.id}?cancelled=true`,
+    success_url: `${domainRoot}/items/${item.id}?orderQuantity=${orderQuantity}`,
+    cancel_url: `${domainRoot}/items/${item.id}?cancelled=true`,
   });
 
   res.redirect(303, session.url);
@@ -65,4 +65,4 @@ app.get('/buy/success/', (req, res) => {
   res.send('You have successfully bought your products.');
 });
 
-app.listen(3000);
+app.listen(process.env.PORT ?? 3000);
