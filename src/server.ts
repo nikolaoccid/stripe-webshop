@@ -46,7 +46,7 @@ app.post('/buy/items/', async (req, res) => {
           product_data: {
             name: item.name,
             description: item.description,
-            images: [`${domainRoot}/${item.picture}`],
+            images: [`${domainRoot}${item.picture}`],
           },
           unit_amount: item.price,
         },
