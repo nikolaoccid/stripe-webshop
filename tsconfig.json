@@ -12,13 +12,13 @@
     "allowSyntheticDefaultImports": true,
     "strictPropertyInitialization": false,
     "incremental": true,
-    "outDir": "./build",
-    "rootDir": "./src",
-    "tsBuildInfoFile": "./build/tsconfig.tsbuildinfo",
+    "outDir": "./dist",
+    "rootDir": "./api",
+    "tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo",
     "inlineSources": true,
     "sourceMap": true
   },
   "include": [
-    "./src"
+    "./api"
   ]
 }
