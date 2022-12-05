@@ -1,6 +1,3 @@
-import 'source-map-support/register';
-import 'reflect-metadata';
-
 import bodyParser from 'body-parser';
 import express from 'express';
 import nunjucks from 'nunjucks';
